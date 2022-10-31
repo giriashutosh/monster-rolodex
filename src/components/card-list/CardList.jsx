@@ -7,8 +7,8 @@ const CardList = (props) => {
   
   return (
     <div className="card-list">
-      {monsters.map(()=>{
-        return <Card monster = {monsters}/>
+      {monsters.map((monster)=>{
+        return <Card monster = {monster}/>
       })
 
       }
